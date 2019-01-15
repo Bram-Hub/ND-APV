@@ -1,0 +1,9 @@
+pre a|b
+pre !b
+sub !a
+  lin !a>b:Implication:1
+  lin b:Modus Ponens:3 4
+  lin b&!b:Conjunction:2 5
+end
+lin a:Indirect Proof:3
+gol a
